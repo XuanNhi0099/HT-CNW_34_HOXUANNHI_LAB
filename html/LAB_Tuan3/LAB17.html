@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LAB17</title>
+    <style>
+        .survey-form{
+            background-color: rgb(211, 167, 85);
+            max-width: 600px;
+            padding: 20px;
+            margin:  auto;
+            box-shadow: 3px 3px 6px #a1a1a1;
+            width: fit-content;
+        }
+        .survey-form h1{
+            text-align: center;
+        }
+        .survey-form .submit .submit-second{
+            width: 200px;
+            margin: auto;
+            display: flex;
+            justify-content: space-between;
+        }
+        .form-user{
+            width: fit-content;
+        }
+        .survey-from-second{
+            padding: 20px;
+            box-shadow: 3px 3px 6px #a1a1a1;
+            max-width: 600px;
+            margin: 20px auto;
+            background-color: antiquewhite;
+        }
+    </style>
+</head>
+<body>
+    <div class="contarnel">
+        <fieldset class="survey-form">
+            <h1>Survay From</h1>
+            <p>If you are interested in purchasing one or more of our products, before ordering please complete some or all of the following survey for our marketing department. Answering any question is optional, and all information will be kept strictly confidential. Thank you very much for your time!</p>
+            <form action="" class="form-user">
+                <p></p>
+            </form>
+            <form action="" class="form-user">
+                <label for="">What is your name? </label>
+                <br>
+                <input type="text">
+            </form>
+            <form action="" class="form-user">
+                <label for="">What is your date of birth</label>
+                <br>
+                <select name="" id="">
+                    <option value="">January</option>
+                    <option value="">February</option>
+                    <option value="">March</option>
+                    <option value="">April</option>
+                    <option value="">May</option>
+                    <option value="">June</option>
+                    <option value="">July</option>
+                    <option value="">August</option>
+                    <option value="">September</option>
+                    <option value="">October</option>
+                    <option value="">November</option>
+                    <option value="">December</option>   
+                </select>
+                <label for="">Date</label>
+                <select name="" id="">
+                    <option value="">1</option>
+                    <option value="">2</option>
+                    <option value="">3</option>
+                    <option value="">4</option>
+                    <option value="">5</option>
+                    <option value="">6</option>
+                    <option value="">7</option>
+                    <option value="">8</option>
+                    <option value="">9</option>
+                    <option value="">10</option>
+                    <option value="">11</option>
+                    <option value="">12</option>
+                    <option value="">13</option>
+                    <option value="">14</option>
+                    <option value="">15</option>
+                    <option value="">16</option>
+                    <option value="">17</option>
+                    <option value="">18</option>
+                    <option value="">19</option>
+                    <option value="">20</option>
+                    <option value="">21</option>
+                    <option value="">22</option>
+                    <option value="">23</option>
+                    <option value="">24</option>
+                    <option value="">25</option>
+                    <option value="">26</option>
+                    <option value="">27</option>
+                    <option value="">28</option>
+                    <option value="">29</option>
+                    <option value="">30</option>
+                    <option value="">31</option>
+                </select>
+                <label for="">Year</label>
+                <input style="width: 40px;" type="text" name="" id="">
+            </form>
+            <div>
+                <form action="" class="form-user">
+                    <label style="vertical-align: top;" for="">3.What is your mailing address (if you would like to have a hard copy of our catalog sent to you)?</label>
+                    <br><textarea name="" id="" cols="30" rows="10" placeholder="Number/P.O. Box/Route" placeholder="Street/Avenue/Road"></textarea>
+                </form>
+            </div>
+
+            <form action="" class="form-user">
+                <label for="">4.What is your email address</label><br>
+                <input type="text" >
+            </form>
+            <form action="" class="form-user">
+                <label for="viewed-online">5. Have you viewed our online product catalog</label><br>
+                <label for="Yes">Yes</label><input type="radio" name = "viewed-online" id="Yes">
+                <label for="No">No</label><input type="radio" name="viewed-online" id="No">
+            </form>
+            <form action="" class="form-user">
+                <label for ="check">"If so, what product(s), besides the one you are ordering, might yo be interested in purchasing in the future? (check all that apply)" </label><br>
+                <input type="radio" name = "check"><label for="">VCR</label><br>
+                <input type="radio" name = "check"><label for="">Big screen TV</label><br>
+                <input type="radio" name = "check"><label for="">Audio Equipment</label><br>
+                <input type="radio" name = "check"><label for="">Video Equipment</label><br>
+                <input type="radio" name = "check"><label for="">Camera Equipment</label><br>
+                <input type="radio" name = "check"><label for="">Other</label> <input type="text" placeholder="Please list:">
+            </form>
+            <form action="" class="form-user">
+                <label for="">7.Do you have any questions, comments or suggesttions before proceeding to the Order Form</label><br>
+                <textarea name="" id="" cols="30" rows="10" placeholder="Your Input"></textarea>
+            </form>
+            <div class="submit">
+                <div class="submit-ssecond">
+                    <button type="button">Send from</button>
+                    <button type="button">Clear From</button>    
+                </div>
+            </div>
+    </fieldset>
+        <div class = "survey-from-second">   
+            <form action="" class="form-user">
+                <br>
+                <label for="">Browser</label> 
+                <select style="width: 100px;" name="" id=""></select>
+                <br>
+                <label for="">User Name</label>
+                <input type="text">
+                <br>
+                <label for="">Encrypiton</label>
+                <select name="" id="">
+                    <option value="">2048(High Grade)</option>
+                </select>
+                <br>
+                <input type="range" min="0" max="100" list="markers">
+                <datalist id="markers">
+                    <option value="0"></option>
+                    <option value="25"></option>
+                    <option value="50"></option>
+                    <option value="75"></option>
+                    <option value="100"></option>
+                  </datalist>
+                  <br>
+                <input type="text">
+                <br>
+                <label for="">Birth:</label> 
+                <input type="date">
+                    <br>
+                <label for="">Select your favorite color</label>
+                <input type="color" name="" id="">
+                <br>
+                <label for="">Birthday (month and year)</label>
+                <input type="month">
+                <br>
+                <label for="">Select a week</label>
+                <input type="week">
+                <br>
+                <label for="">Select a time:</label>
+                <input type="time" name="" id="">
+                <br>
+                <label for="">Birthday</label>
+                <input type="datetime">
+                <br>
+                <label for="">Email</label>
+                <input type="email">
+                <br>
+                <label for="">Search Google</label>
+                <input type="search">
+                <br>
+                <label for="">Telphone</label>
+                <input type="tel" name="" id="">
+                <br>
+                <label for="">Add your homepage</label>
+                <input type="text">
+                <br>
+                <input type="submit">
+                <P><b>Note: </b> The datalist tag is not supported in Safari or IE9 (and earlier)</P>
+            </form>
+        </div>
+
+    </div>
+</body>
+</html>

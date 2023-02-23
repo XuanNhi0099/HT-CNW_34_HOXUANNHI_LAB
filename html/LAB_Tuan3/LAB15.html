@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LAB15</title>
+    <style>
+        .XX{
+            display: flex;
+            flex-direction: column;
+            width: fit-content;
+            /* position: relative; */
+            margin: auto;
+            box-shadow: 3px 3px 6px #a1a1a1;
+        }
+        .YY{
+            padding:40px;
+            /* border: 1px solid black; */
+            width: fit-content;
+            box-shadow: 3px 3px 6px #a1a1a1;
+        }
+    </style>
+</head>
+<body>
+    <div class="XX">
+        <div class="YY">
+            <h1>Contact Us</h1>
+            <fieldset class="A">
+                <legend>Your message:</legend>
+                    <table>
+                    <tr>
+                        <td> 
+                            <label for="emailTo">To</label> 
+                        </td>
+                        <td>
+                            <input type="text" name="txtTo" readonly="readonly" id = "emailTo" size="20" value="Example Cafe">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="emailFrom">Your email</label></td> <td> 
+                            <input type="text" name="txtFrom" id="emailFrom" size="20" tabindex="1"
+                            maxlength="250">
+                        </td>
+                    </tr>
+                    <tr> 
+                        <td><label for="emailBody">Message</label>
+                        <td><textarea name="txtBody" id="emailBody" cols="50" rows="10" tabindex="2"></textarea></td>
+                    </tr>
+                </table>
+             </fieldset>
+             <fieldset class="B">
+                <legend>How you found us:</legend>
+                <table>
+                    <tr>
+                        <td>How did you hear</td>
+                        <td>
+                            <select name="" id="">
+                                <option value="">Google</option>
+                                <option value="">GPT</option>
+                                <option value="">Youtube</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr >
+                        <td>Newsletter</td>
+                        <td><input type="checkbox">Ensure this box is checked if you would like to receive email updates</button></td>
+                    </tr>
+                </table>
+             </fieldset>
+             <button type="button">Send Messeage</button>
+             <fieldset class ="C">
+                <legend>Contact Iformation</legend>
+                <table>
+                    <tr>
+                        <td>First name:</td>
+                        <td><input type="text"></td>
+                    </tr>
+                    <tr>
+                        <td>Last name:</td>
+                        <td><input type="text"></td>
+                    </tr>
+                    <tr>
+                        <td>E-mail:</td>
+                        <td><input type="text"></td>
+                    </tr>
+                </table>
+             </fieldset>
+             <fieldset class="D">
+                <legend>Competition Question</legend>
+                <div class="radio">
+                    <label for="tall-eiffel"><p>How tall is the Eiffel Tower in Paris, France? </p></label>
+                    <input type="radio" id="5" name="tall-eiffel" required> <label for="5">584 ft</label><br>
+                    <input type="radio" id="7"name="tall-eiffel" required> <label for="7">784 ft</label><br>
+                    <input type="radio" id="9"name="tall-eiffel" required> <label for="9">984 ft</label><br>
+                    <input type="radio" id="11"name="tall-eiffel" required> <label for="11">1184 ft</label>
+                </div>
+             </fieldset>
+             <fieldset class="E">
+                <legend>Tiebreaker Question</legend>
+                <p>In 25 word or less, say why you would like to win $10,000:</p>
+                <textarea name="" id="" cols="40" rows="8"></textarea>
+             </fieldset>
+             <fieldset class="F">
+                <legend>Enter competion</legend>
+                <button type="button">Enter Competition</button>
+             </fieldset>
+        </div>
+        
+    </div>
+</body>
+</html>
