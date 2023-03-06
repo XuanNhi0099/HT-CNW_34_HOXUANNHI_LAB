@@ -1,0 +1,8 @@
+#exmpale1 {
+    background-image: url(../img/dh.jpg),url(../img/la.jpg);
+    background-position: right bottom, left  top;
+    background-repeat: repeat,no-repeat;
+    background-size: contain;
+    height: 600px;
+    width: 400px;
+}

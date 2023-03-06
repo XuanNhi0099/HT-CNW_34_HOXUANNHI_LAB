@@ -1,0 +1,17 @@
+.Animation{
+    width: fit-content;
+    text-transform: uppercase;
+    margin: auto;
+    
+}
+.Animation a{
+    text-decoration: none;
+    color: black;
+    padding: 5px 20px;
+    
+}
+.Animation tr td{
+    border:1px solid rgb(203, 29, 29);
+    padding: 1px 1px;
+  
+}

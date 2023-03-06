@@ -1,0 +1,22 @@
+#table{
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+#table caption{
+    color: #e31414;
+}
+#table th, #table td{
+    border: 1px solid red;
+}
+#tdcssleft, #tdcssright{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', 'Arial', 'sans-serif';
+}
+#h1{
+    background-color: #be6b6b;color: white;
+}
+#chan{
+    background-color: antiquewhite;
+}
+#le{
+    background-color: darkgrey;
+}

@@ -1,0 +1,30 @@
+.animated .hehe {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: move 2s normal infinite;
+  }
+  
+  @keyframes move {
+    0% {
+        transform: translateX(0) rotate(0deg);
+    }
+    25% {
+        transform: translateX(-200%) rotate(180deg);
+    }
+    75% {
+        transform: translateX(200%) rotate(0deg);
+    }
+    100% {
+        transform: translateX(0) rotate(0deg);
+    }
+}
+.animated .hehe:hover
+  {
+    animation-play-state: paused;
+  }

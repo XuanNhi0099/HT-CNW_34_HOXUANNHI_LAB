@@ -1,0 +1,16 @@
+.top, .bottom{
+    width: 100%;
+}
+.bottom:before, .bottom:after{
+    display: table;
+    content: "";
+}
+.bottom:after{
+    clear: both;
+}
+.col1, .col2, .col3{
+    float: left;
+    width: 25.33333333333%;
+    margin: 1%;
+    padding: 1%;
+}
